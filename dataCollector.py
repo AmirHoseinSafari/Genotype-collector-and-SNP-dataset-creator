@@ -9,6 +9,8 @@ id = []
 #####################################################################
 # in this code by using the phenotypes id in the "FILE_NAME".txt file
 # we weill download its .fastq files from ENA databese
+# if the code fail in downloding a phenotype's file, the id will be 
+# write in the "missIdForDownload.txt"
 #####################################################################
 firstContent = source.readline()
 while firstContent != "":
