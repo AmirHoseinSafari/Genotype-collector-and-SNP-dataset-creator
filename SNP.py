@@ -2,7 +2,7 @@ import os
 import multiprocessing
 
 NUM_OF_THREADS = 1
-FILE_NAME = "finalMissIds.txt"
+FILE_NAME = "/Users/amir/PycharmProjects/Lab/phenotypeCollector"
 
 ###############################################
 # in this code by using the phenotypes id in the "FILE_NAME".txt file
@@ -33,7 +33,7 @@ os.system(cmd)
 
 cmd = "cd hstlib; make"
 os.system(cmd)
-#
+
 cmd = "cd samtools; make"
 os.system(cmd)
 
@@ -43,14 +43,12 @@ os.system(cmd)
 
 #______________________________________________________
 
-
-source = open(FILE_NAME, "r")
+folderContent = os.listdir(FILE_NAME)
 id = []
 
-firstContent = source.readline()
-while firstContent != "":
-    id.append(firstContent[0: len(firstContent) - 2])
-    firstContent = source.readline()
+for i in range(0, len(folderContent)):
+    if folderContent[i].__contains__("_1.fastq.gz"):
+        id.append(folderContent[i])
 
 
 def samToolsSNP(id, sleepNow=False):
