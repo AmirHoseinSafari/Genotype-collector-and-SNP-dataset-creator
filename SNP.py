@@ -48,8 +48,7 @@ id = []
 
 for i in range(0, len(folderContent)):
     if folderContent[i].__contains__("_1.fastq.gz"):
-        id.append(folderContent[i])
-
+        id.append(folderContent[i][:len(folderContent[i]) - 11])
 
 def samToolsSNP(id, sleepNow=False):
     print "start SNP process for :" + id
