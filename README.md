@@ -13,3 +13,6 @@ By calling preprocessing() function you will get the ( "Final_" + id + "_table.c
 
 ## tableCreatorGit.py
 In this code we make a table for all the isolates
+
+## sparseMatrix.py
+Will store the table of tableCreatorGit.py in the sparse format to reduce size
