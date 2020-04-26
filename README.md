@@ -11,3 +11,5 @@ If the code fail in make SNP of special phenotype, the id will be write in the "
 
 By calling preprocessing() function you will get the ( "Final_" + id + "_table.csv" ) file which contatin "pos, ref, alt" for each SNP
 
+## tableCreatorGit.py
+In this code we make a table for all the isolates
