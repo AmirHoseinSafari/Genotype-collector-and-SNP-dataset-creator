@@ -1,5 +1,5 @@
 # genotypeCollector
-In this code, we do the following thing:
+In this code, we do the following things:
 
 1_ We download the .fastq files from ENA for each isolate.
 
