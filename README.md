@@ -11,7 +11,7 @@ In this code, we do the following things:
 In this code by using the isolate id in the "FILE_NAME".txt file we will download its .fastq files from the ENA database.
 
 ## SNP.py
-In this code by using the isolate id in the "FILE_NAME".txt file and its .fastq files we will find its SNPs using bwa-mem and samtools and GATK and get the common SNPs of both files and store in ("Final_" + id + ".vcf").
+In this code by using the isolate id in the "FILE_NAME".txt file and its .fastq files we will find its SNPs using bwa-mem and samtools and GATK. Then we get the common SNPs of both approaches (samtools and GATK) and store them in ("Final_" + id + ".vcf").
 
 If the code fails to find SNPs of special isolate, the id will be written in the "missIdForSNP.txt"
 
