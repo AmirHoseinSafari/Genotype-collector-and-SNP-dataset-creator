@@ -1,7 +1,10 @@
 # genotypeCollector
 In this code, we do the following thing:
+
 1_ We download the .fastq files from ENA for each isolate.
+
 2_ We find the SNPs for each isolate by using the bwa-mem and then samtools and GATK.
+
 3_ We create a binary table. Each row represents an isolate and each column represents the SNP.
 
 ## dataCollector.py
