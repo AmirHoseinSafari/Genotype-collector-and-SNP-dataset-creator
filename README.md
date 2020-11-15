@@ -1,7 +1,7 @@
 # genotypeCollector
 In this code, we do the following things:
 
-1_ We download the .fastq files from ENA for each isolate.
+1_ We download the .fastq files from the european nucleotide archive (ENA) for each isolate.
 
 2_ We find the SNPs for each isolate by using the bwa-mem and then samtools and GATK.
 
