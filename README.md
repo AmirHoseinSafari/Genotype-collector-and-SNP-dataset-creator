@@ -28,6 +28,5 @@ Will store the table of tableCreatorGit.py in the sparse format to reduce size.
 ## Citation
 If you found the content of this repository useful, please cite us:
 
-https://www.biorxiv.org/content/10.1101/2020.11.07.372136v2
-
+https://dl.acm.org/doi/abs/10.1145/3459930.3469534
 ---
